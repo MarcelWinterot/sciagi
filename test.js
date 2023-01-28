@@ -18,6 +18,7 @@ t8 =document.getElementById("t8");
 
 b1.addEventListener("click", function(){
     t1.style.display = "flex";
+    t1.style.flexDirection = "column";
     t2.style.display = "none";
     t3.style.display = "none";
     t4.style.display = "none";
@@ -30,6 +31,7 @@ b1.addEventListener("click", function(){
 b2.addEventListener("click", function(){
     t1.style.display = "none";
     t2.style.display = "flex";
+    t2.style.flexDirection = "column";
     t3.style.display = "none";
     t4.style.display = "none";
     t5.style.display = "none";
@@ -42,6 +44,7 @@ b3.addEventListener("click", function(){
     t1.style.display = "none";
     t2.style.display = "none";
     t3.style.display = "flex";
+    t3.style.flexDirection = "column";
     t4.style.display = "none";
     t5.style.display = "none";
     t6.style.display = "none";
@@ -54,6 +57,7 @@ b4.addEventListener("click", function(){
     t2.style.display = "none";
     t3.style.display = "none";
     t4.style.display = "flex";
+    t4.style.flexDirection = "column";
     t5.style.display = "none";
     t6.style.display = "none";
     t7.style.display = "none";
@@ -66,6 +70,7 @@ b5.addEventListener("click", function(){
     t3.style.display = "none";
     t4.style.display = "none";
     t5.style.display = "flex";
+    t5.style.flexDirection = "column";
     t6.style.display = "none";
     t7.style.display = "none";
     t8.style.display = "none";
@@ -78,6 +83,7 @@ b6.addEventListener("click", function(){
     t4.style.display = "none";
     t5.style.display = "none";
     t6.style.display = "flex";
+    t6.style.flexDirection = "column";
     t7.style.display = "none";
     t8.style.display = "none";
 });
@@ -90,6 +96,7 @@ b7.addEventListener("click", function(){
     t5.style.display = "none";
     t6.style.display = "none";
     t7.style.display = "flex";
+    t7.style.flexDirection = "column";
     t8.style.display = "none";
 });
 
@@ -102,4 +109,5 @@ b8.addEventListener("click", function(){
     t6.style.display = "none";
     t7.style.display = "none";
     t8.style.display = "flex";
+    t8.style.flexDirection = "column";
 });
